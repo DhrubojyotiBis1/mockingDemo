@@ -14,6 +14,10 @@
 		6FA017EE243297D700229BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FA017ED243297D700229BD2 /* Assets.xcassets */; };
 		6FA017F1243297D700229BD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FA017EF243297D700229BD2 /* LaunchScreen.storyboard */; };
 		6FA017FC243297D700229BD2 /* mockAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA017FB243297D700229BD2 /* mockAPITests.swift */; };
+		6FA018072432988400229BD2 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA018062432988400229BD2 /* UserData.swift */; };
+		6FA018092432988E00229BD2 /* googleServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FA018082432988E00229BD2 /* googleServices.swift */; };
+		AB2C43E70303AC0C65EAA207 /* Pods_mockAPITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C18261E88F3B362D500EAF /* Pods_mockAPITests.framework */; };
+		DBD43C1DB18470DD4E031969 /* Pods_mockAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6549606B00C35DF2D9F0F85 /* Pods_mockAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		27640D1A74B0C07BA390D3A3 /* Pods-mockAPI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mockAPI.release.xcconfig"; path = "Target Support Files/Pods-mockAPI/Pods-mockAPI.release.xcconfig"; sourceTree = "<group>"; };
+		38C18261E88F3B362D500EAF /* Pods_mockAPITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mockAPITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA017E1243297D400229BD2 /* mockAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mockAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA017E4243297D400229BD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FA017E6243297D400229BD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +44,12 @@
 		6FA017F7243297D700229BD2 /* mockAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mockAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FA017FB243297D700229BD2 /* mockAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mockAPITests.swift; sourceTree = "<group>"; };
 		6FA017FD243297D700229BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FA018062432988400229BD2 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		6FA018082432988E00229BD2 /* googleServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = googleServices.swift; sourceTree = "<group>"; };
+		7C522B545FDEE341EEE61EA4 /* Pods-mockAPITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mockAPITests.release.xcconfig"; path = "Target Support Files/Pods-mockAPITests/Pods-mockAPITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4C09A33CDDDE60B6F178F0A /* Pods-mockAPI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mockAPI.debug.xcconfig"; path = "Target Support Files/Pods-mockAPI/Pods-mockAPI.debug.xcconfig"; sourceTree = "<group>"; };
+		A6549606B00C35DF2D9F0F85 /* Pods_mockAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mockAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA600650C5DCAB6D353E9ABF /* Pods-mockAPITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mockAPITests.debug.xcconfig"; path = "Target Support Files/Pods-mockAPITests/Pods-mockAPITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBD43C1DB18470DD4E031969 /* Pods_mockAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +65,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB2C43E70303AC0C65EAA207 /* Pods_mockAPITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		626A72198885A01A56AE5374 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6549606B00C35DF2D9F0F85 /* Pods_mockAPI.framework */,
+				38C18261E88F3B362D500EAF /* Pods_mockAPITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6FA017D8243297D400229BD2 = {
 			isa = PBXGroup;
 			children = (
 				6FA017E3243297D400229BD2 /* mockAPI */,
 				6FA017FA243297D700229BD2 /* mockAPITests */,
 				6FA017E2243297D400229BD2 /* Products */,
+				ED045F0BE7C90FAC32739CB7 /* Pods */,
+				626A72198885A01A56AE5374 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +104,8 @@
 		6FA017E3243297D400229BD2 /* mockAPI */ = {
 			isa = PBXGroup;
 			children = (
+				6FA018082432988E00229BD2 /* googleServices.swift */,
+				6FA018062432988400229BD2 /* UserData.swift */,
 				6FA017E4243297D400229BD2 /* AppDelegate.swift */,
 				6FA017E6243297D400229BD2 /* SceneDelegate.swift */,
 				6FA017E8243297D400229BD2 /* ViewController.swift */,
@@ -99,6 +126,18 @@
 			path = mockAPITests;
 			sourceTree = "<group>";
 		};
+		ED045F0BE7C90FAC32739CB7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4C09A33CDDDE60B6F178F0A /* Pods-mockAPI.debug.xcconfig */,
+				27640D1A74B0C07BA390D3A3 /* Pods-mockAPI.release.xcconfig */,
+				DA600650C5DCAB6D353E9ABF /* Pods-mockAPITests.debug.xcconfig */,
+				7C522B545FDEE341EEE61EA4 /* Pods-mockAPITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FA01800243297D700229BD2 /* Build configuration list for PBXNativeTarget "mockAPI" */;
 			buildPhases = (
+				537C6E57105445142103C20A /* [CP] Check Pods Manifest.lock */,
 				6FA017DD243297D400229BD2 /* Sources */,
 				6FA017DE243297D400229BD2 /* Frameworks */,
 				6FA017DF243297D400229BD2 /* Resources */,
+				7226D6067CA947DE3AA15AF9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6FA01803243297D700229BD2 /* Build configuration list for PBXNativeTarget "mockAPITests" */;
 			buildPhases = (
+				338EE1B2374737ADE748FBDE /* [CP] Check Pods Manifest.lock */,
 				6FA017F3243297D700229BD2 /* Sources */,
 				6FA017F4243297D700229BD2 /* Frameworks */,
 				6FA017F5243297D700229BD2 /* Resources */,
@@ -195,6 +237,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		338EE1B2374737ADE748FBDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mockAPITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		537C6E57105445142103C20A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mockAPI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7226D6067CA947DE3AA15AF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mockAPI/Pods-mockAPI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mockAPI/Pods-mockAPI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mockAPI/Pods-mockAPI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6FA017DD243297D400229BD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -202,6 +308,8 @@
 			files = (
 				6FA017E9243297D400229BD2 /* ViewController.swift in Sources */,
 				6FA017E5243297D400229BD2 /* AppDelegate.swift in Sources */,
+				6FA018092432988E00229BD2 /* googleServices.swift in Sources */,
+				6FA018072432988400229BD2 /* UserData.swift in Sources */,
 				6FA017E7243297D400229BD2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,6 +468,7 @@
 		};
 		6FA01801243297D700229BD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C09A33CDDDE60B6F178F0A /* Pods-mockAPI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +487,7 @@
 		};
 		6FA01802243297D700229BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27640D1A74B0C07BA390D3A3 /* Pods-mockAPI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +506,7 @@
 		};
 		6FA01804243297D700229BD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA600650C5DCAB6D353E9ABF /* Pods-mockAPITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +529,7 @@
 		};
 		6FA01805243297D700229BD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C522B545FDEE341EEE61EA4 /* Pods-mockAPITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
